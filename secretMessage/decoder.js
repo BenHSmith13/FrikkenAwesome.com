@@ -206,6 +206,22 @@ function bonus(){
 		case 'Love':
 			document.getElementById('bonus').innerHTML = tawniCarousel;
 			break;
+    case 'Harrison Ford':
+      document.getElementById('bonus').innerHTML = "<img src='http://2.bp.blogspot.com/-e5d2ltnJ2Rk/U8LCul0muRI/AAAAAAAB2Ig/Ox5bCQG7D1U/s1600/harrison+ford11.gif' />";
+      break;
+    case 'Indiana Jones':
+      document.getElementById('bonus').innerHTML = "<img src='http://2.bp.blogspot.com/-e5d2ltnJ2Rk/U8LCul0muRI/AAAAAAAB2Ig/Ox5bCQG7D1U/s1600/harrison+ford11.gif' />";
+      break;
+    case 'indiana jones':
+      document.getElementById('bonus').innerHTML = "<img src='http://ak-hdl.buzzfed.com/static/2013-11/enhanced/webdr06/22/14/anigif_original-grid-image-30208-1385149291-3.gif' />";
+      break;
+    case 'Han Solo':
+      document.getElementById('bonus').innerHTML = "<img src='http://ak-hdl.buzzfed.com/static/2013-11/enhanced/webdr01/22/15/anigif_enhanced-buzz-23372-1385151004-11.gif' />";
+      break;
+    case 'Elephant':
+      break;
+    case 'Benjamin Hayden Smith':
+      break;
 		default:
 			break
 	}
