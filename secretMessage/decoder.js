@@ -207,7 +207,8 @@ function bonus(){
 			document.getElementById('bonus').innerHTML = tawniCarousel;
 			break;
     case 'Harrison Ford':
-      document.getElementById('bonus').innerHTML = "<img src='http://2.bp.blogspot.com/-e5d2ltnJ2Rk/U8LCul0muRI/AAAAAAAB2Ig/Ox5bCQG7D1U/s1600/harrison+ford11.gif' />";
+    case 'harrison ford':
+      document.getElementById('bonus').innerHTML = "<img src='http://24.media.tumblr.com/11c87f6a2deb4535c97b908178fe2f3e/tumblr_mgyf5c9bU01qetk25o1_250.gif' />";
       break;
     case 'Indiana Jones':
       document.getElementById('bonus').innerHTML = "<img src='http://2.bp.blogspot.com/-e5d2ltnJ2Rk/U8LCul0muRI/AAAAAAAB2Ig/Ox5bCQG7D1U/s1600/harrison+ford11.gif' />";
@@ -217,6 +218,9 @@ function bonus(){
       break;
     case 'Han Solo':
       document.getElementById('bonus').innerHTML = "<img src='http://ak-hdl.buzzfed.com/static/2013-11/enhanced/webdr01/22/15/anigif_enhanced-buzz-23372-1385151004-11.gif' />";
+      break;
+    case 'han solo':
+      document.getElementById('bonus').innerHTML = "<img src='http://media.giphy.com/media/umuDPcy78IbkY/giphy.gif' />";
       break;
     case 'Elephant':
       break;
