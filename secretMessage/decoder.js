@@ -223,10 +223,20 @@ function bonus(){
       document.getElementById('bonus').innerHTML = "<img src='http://media.giphy.com/media/umuDPcy78IbkY/giphy.gif' />";
       break;
     case 'Elephant':
+    case 'Elephants':
+    case 'elephant':
+    case 'elephants':
+      document.getElementById('bonus').innerHTML = "<iframe width='560' height='315' src='https://www.youtube.com/embed/sVVorvXojhE?rel=0&autoplay=1' frameborder='0' allowfullscreen></iframe>";
       break;
     case 'Benjamin Hayden Smith':
+      document.getElementById('benQuiz').style.display = "block";
       break;
 		default:
 			break
 	}
+  document.getElementById('bonusMessage').value = "";
+}
+
+function formSubmit(){
+  debugger;
 }

@@ -11,18 +11,6 @@ iframe{
     width: 600px;
     height: 400px;
 }
-/*div.inputField{*/
-    /*padding: 10px;*/
-/*}*/
-/*label{*/
-    /*display: inline-block;*/
-    /*float: left;*/
-    /*clear: left;*/
-    /*width: 250px;*/
-    /*text-align: right;*/
-/*}*/
-/*input {*/
-    /*display: inline-block;*/
-    /*float: left;*/
-    /*margin-right: 5px;*/
-/*}*/
+#benQuiz{
+    display: none;
+}
