@@ -2,6 +2,8 @@
  * Created by bensmith on 9/6/15.
  */
 
+var myFirebaseRef = new Firebase("https://vivid-fire-5700.firebaseio.com/");
+
 function decoder(field){
 	var values = document.getElementById(field).value.split(" ");
 	var output = "";
