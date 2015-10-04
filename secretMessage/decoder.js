@@ -240,5 +240,44 @@ function bonus(){
 }
 
 function formSubmit(){
-  debugger;
+
+  var d = new Date();
+
+  var food = document.getElementById('food').value;
+  var hero = document.getElementById('hero').value;
+  var motorcycle = document.getElementById('motorcycle').value;
+  var music0 = document.getElementById('music0').value;
+  var music1 = document.getElementById('music1').value;
+  var music2 = document.getElementById('music2').value;
+  var tawni = document.getElementById('tawni').value;
+  var extraCredit = document.getElementById('extraCredit').value;
+
+  switch (tawni){
+    case 'tawni':
+    case 'Tawni':
+    case 'Tawni Lynn Waldram':
+    case 'tawni lynn waldram':
+    case 'tawni waldram':
+    case 'Tawni Waldram':
+    case 'me':
+    case 'Me':
+      document.getElementById('bonus').innerHTML = "<h1>I Love You Tawni<br/>and that is the only question that matters</h1>";
+      break;
+    default :
+      break;
+  }
+
+  myFirebaseRef.push({
+    timeStamp: d.toJSON(),
+    answers: {
+      food: food,
+      hero: hero,
+      motorcycle: motorcycle,
+      music0: music0,
+      music1: music1,
+      music2: music2,
+      love: tawni,
+      ec: extraCredit
+    }
+  });
 }
