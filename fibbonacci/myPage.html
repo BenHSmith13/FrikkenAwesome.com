@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="control.js"></script>
+    <link href="myPageStyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="fibo">
+    <h2>Fibonacci Sequence</h2>
+    <label>
+        <p>What number of the sequence would you like?</p>
+        <input type="text" id="n">
+        <button onclick="setN(); fibonacci(0,1,1,n)">Submit</button>
+    </label>
+
+    <h3 id="answer"></h3>
+
+    <button onclick="allFibs()">View All</button>
+    <p id="fibs"></p>
+</div>
+
+</body>
+</html>
